@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Mentors - GDG On Campus ABESIT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="icon" type="image/png" href="assets/gdg_logo_icon.png" />
+</head>
+
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="assets/gdg_logo_icon.png" alt="GDG Logo">
+        </div>
+        <div class="nav-middle">
+            <a href="index.html#home" class="nav-item">Home</a>
+            <a href="index.html#events" class="nav-item">Event</a>
+            <a href="index.html#gallery" class="nav-item">Gallery</a>
+            <a href="index.html#team" class="nav-item">Team</a>
+            <a href="mentors.html" class="nav-item active">Mentors</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html#contact" class="connect">Contact Us</a>
+        </div>
+        <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+    </nav>
+
+    <!-- ========== MOBILE MENU ========== -->
+    <div class="mobile-menu" id="mobileMenu">
+        <span class="close-btn" onclick="toggleMenu()">&#10005;</span>
+        <a href="index.html#home" onclick="toggleMenu()">Home</a>
+        <a href="index.html#events" onclick="toggleMenu()">Event</a>
+        <a href="index.html#gallery" onclick="toggleMenu()">Gallery</a>
+        <a href="index.html#team" onclick="toggleMenu()">Team</a>
+        <a href="mentors.html" onclick="toggleMenu()">Mentors</a>
+        <a href="index.html#sponsors" onclick="toggleMenu()">Sponsors</a>
+        <a href="index.html#contact" onclick="toggleMenu()">Contact Us</a>
+    </div>
+
+    <div style="height: 6rem;"></div> <!-- Spacer for fixed nav -->
+
+    <!-- ========== MENTORS SECTION ========== -->
+    <div class="team-section" id="mentors-page"
+        style="background-image: url('assets/gallery_new_bg.svg'); min-height:80vh; padding-top:2rem;">
+        <h2 class="section-title" style="text-align:center;">Our <span style="color:#4285F4;">Mentors</span></h2>
+        <p class="section-subtitle" style="text-align:center;margin:0 auto 3rem auto;max-width:600px;">Dedicated
+            mentors,
+            guiding us with wisdom and support on our path to success.</p>
+
+        <div class="team-cards">
+            <!-- Mentor 1 -->
+            <div class="team-card tc1">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Devraj+Rathi&background=4285F4&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Devraj Rathi" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Devraj Rathi</h3>
+                    <p>Founder | SDE-2 @Oracle</p>
+                </div>
+            </div>
+            <!-- Mentor 2 -->
+            <div class="team-card tc2">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Tarun+Aggarwal&background=EA4335&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Tarun Aggarwal" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Tarun Aggarwal</h3>
+                    <p>Core Member '20 | SDE-2 @GoComet</p>
+                </div>
+            </div>
+            <!-- Mentor 3 -->
+            <div class="team-card tc3">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Kumar+Satyarth&background=FBBC04&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Kumar Satyarth" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Kumar Satyarth</h3>
+                    <p>GDSC Lead '20 | Smart Contract Dev @Timeswap</p>
+                </div>
+            </div>
+            <!-- Mentor 4 -->
+            <div class="team-card tc4">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Hari+Om+Kushwaha&background=34A853&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Hari Om Kushwaha" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Hari Om Kushwaha</h3>
+                    <p>Core Member '20 | SDE @Betterplace</p>
+                </div>
+            </div>
+            <!-- Mentor 5 -->
+            <div class="team-card tc5">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Adya+Pandey&background=9c27b0&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Adya Pandey" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Adya Pandey</h3>
+                    <p>GDSC Lead '21 | Civil Service</p>
+                </div>
+            </div>
+            <!-- Mentor 6 -->
+            <div class="team-card tc6">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Pari+Tomar&background=00bcd4&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Pari Tomar" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Pari Tomar</h3>
+                    <p>Core Member '21 | Blockchain Dev @Nest</p>
+                </div>
+            </div>
+            <!-- Mentor 7 -->
+            <div class="team-card tc7">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Prakhar+Sharma&background=FF5722&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Prakhar Sharma" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Prakhar Sharma</h3>
+                    <p>Blockchain Dev @Nest</p>
+                </div>
+            </div>
+            <!-- Mentor 8 -->
+            <div class="team-card tc8">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Aryash+Chaudhary&background=607d8b&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Aryash Chaudhary" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Aryash Chaudhary</h3>
+                    <p>MERN Developer</p>
+                </div>
+            </div>
+            <!-- Mentor 9 -->
+            <div class="team-card tc1">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Shivam+Kumar&background=4285F4&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Shivam Kumar" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Shivam Kumar</h3>
+                    <p>GDSC Lead '22 | Community Manager @Outdefine</p>
+                </div>
+            </div>
+            <!-- Mentor 10 -->
+            <div class="team-card tc2">
+                <div class="profile-pic">
+                    <img src="https://ui-avatars.com/api/?name=Keshav+Malik&background=EA4335&color=fff&size=400&font-size=0.35&bold=true"
+                        alt="Keshav Malik" />
+                </div>
+                <div class="ppl-det">
+                    <h3>Keshav Malik</h3>
+                    <p>GDSC Lead '23 | Full Stack Dev @Endeavor</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Logo & Copyright -->
+            <div class="footer-column">
+                <img src="assets/gdg_logo_icon.png" alt="GDG Logo" style="height:60px; margin-bottom:1.5rem;" />
+                <p class="footer-copy">
+                    &copy; <span id="year"></span> GDG On Campus ABESIT.<br>
+                    All rights reserved.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">> About</a></li>
+                    <li><a href="https://gdg.community.dev/" target="_blank">> Chapters</a></li>
+                    <li><a href="index.html#events">> Upcoming Events</a></li>
+                    <li><a href="https://gdg.community.dev/" target="_blank">> Participation Terms</a></li>
+                    <li><a href="#">> Privacy Policy</a></li>
+                    <li><a href="#">> Terms and Conditions</a></li>
+                </ul>
+            </div>
+
+            <!-- Follow Us -->
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-links-minimal">
+                    <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

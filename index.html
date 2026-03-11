@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GDG On Campus ABESIT</title>
+  <meta name="description" content="Google Developer Groups On Campus at ABESIT Group of Institutions, Ghaziabad." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="icon" type="image/png" href="assets/gdg_logo_icon.png" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <img src="assets/gdg_logo_icon.png" alt="GDG Logo">
+    </div>
+    <div class="nav-middle">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#events" class="nav-item">Event</a>
+      <a href="#gallery" class="nav-item">Gallery</a>
+      <a href="#team" class="nav-item">Team</a>
+      <a href="mentors.html" class="nav-item">Mentors</a>
+    </div>
+    <div class="nav-right">
+      <a href="#contact" class="connect">Contact Us</a>
+    </div>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <!-- ========== MOBILE MENU ========== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <span class="close-btn" onclick="toggleMenu()">&#10005;</span>
+    <a href="#home" onclick="toggleMenu()">Home</a>
+    <a href="#events" onclick="toggleMenu()">Event</a>
+    <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+    <a href="#team" onclick="toggleMenu()">Team</a>
+    <a href="mentors.html" onclick="toggleMenu()">Mentors</a>
+    <a href="#sponsors" onclick="toggleMenu()">Sponsors</a>
+    <a href="#contact" onclick="toggleMenu()">Contact Us</a>
+  </div>
+
+  <!-- ========== HERO ========== -->
+  <div class="hero-section" id="home">
+    <div class="hero-text">
+      <div class="brand-logo">
+        <h1>WE ARE</h1>
+      </div>
+      <div class="brand-quote">
+        <h2>GDG On Campus &bull; <span>ABESIT Group of Institutions</span></h2>
+      </div>
+    </div>
+
+    <div class="cards-container">
+      <div class="card" id="card1"></div>
+      <div class="card" id="card2"></div>
+      <div class="card" id="card3"></div>
+    </div>
+  </div>
+
+  <!-- ========== EVENTS SECTION ========== -->
+  <div class="events-section" id="events">
+    <h2 class="section-title">Our Events</h2>
+    <p class="section-subtitle">Highlights from GDG On Campus ABESIT — experience the energy of our events!</p>
+
+    <div class="events-cards">
+
+      <!-- DevFest -->
+      <div class="event-card card1">
+        <div class="card-image">
+          <img src="assets/media__1771967336104.png" alt="DevFest Noida 2025" />
+        </div>
+        <div class="card-content">
+          <div>
+            <p class="card-date-type">Dec 6, 2025 &bull; External Event</p>
+            <h3 class="card-heading">DevFest Noida 2025</h3>
+            <p class="card-description">GDG On Campus ABESIT participated in DevFest Noida 2025 — Google's flagship
+              annual developer festival bringing together thousands of developers, students, and tech enthusiasts.</p>
+          </div>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn">
+            <span>&#10142;</span> Learn More
+          </a>
+        </div>
+      </div>
+
+      <!-- Squid Hunt -->
+      <div class="event-card card2">
+        <div class="card-image">
+          <img src="assets/media__1771967052019.png" alt="SQUID HUNT" />
+        </div>
+        <div class="card-content">
+          <div>
+            <p class="card-date-type">Apr 26, 2025 &bull; Workshop / Study Group</p>
+            <h3 class="card-heading">SQUID HUNT &mdash; The Hunt Begins!</h3>
+            <p class="card-description">An exciting coding treasure hunt that challenged participants with creative
+              logic puzzles, algorithmic challenges, and real-world problem-solving in a race against the clock.</p>
+          </div>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn">
+            <span>&#10142;</span> Learn More
+          </a>
+        </div>
+      </div>
+
+      <!-- Hacknovate -->
+      <div class="event-card card3">
+        <div class="card-image">
+          <img src="assets/media__1771964596914.png" alt="Hacknovate 6.0" />
+        </div>
+        <div class="card-content">
+          <div>
+            <p class="card-date-type">Apr 4, 2025 &bull; Hackathon</p>
+            <h3 class="card-heading">Hacknovate 6.0</h3>
+            <p class="card-description">Our flagship hackathon where students ideated, designed, and built innovative
+              solutions addressing real-world challenges — guided by expert mentors over intense focused sessions.</p>
+          </div>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn">
+            <span>&#10142;</span> Learn More
+          </a>
+        </div>
+      </div>
+
+      <!-- Tech Winter Break -->
+      <div class="event-card card4">
+        <div class="card-image">
+          <img src="assets/media__1771964626732.png" alt="Tech Winter Break" />
+        </div>
+        <div class="card-content">
+          <div>
+            <p class="card-date-type">Dec 26, 2024 &bull; Workshop / Study Group</p>
+            <h3 class="card-heading">Tech Winter Break</h3>
+            <p class="card-description">A special holiday workshop series covering Cloud, ML, and Web development —
+              organized to keep developers in the community active and building during the winter break.</p>
+          </div>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn">
+            <span>&#10142;</span> Learn More
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="more-event" style="margin-top:2rem;">
+      <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn visit-btn2">
+        View All Events <span class="btn-main"><span>&#10230;</span></span>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- ========== GALLERY SECTION ========== -->
+  <div class="gallery-section" id="gallery">
+    <h2 class="section-title" style="text-align:center;">Gallery</h2>
+    <p class="section-subtitle" style="text-align:center;margin:0 auto 1rem auto;max-width:600px;">Take a look at some
+      of our recent events and activities.</p>
+
+    <div class="grid-container">
+      <div class="grid-item item1 gal1">
+        <div class="gal-img" style="background-image:url('https://picsum.photos/seed/gdgabdev1/800/600');">
+          <span class="gal-label">DevFest Noida 2025</span>
+        </div>
+      </div>
+      <div class="grid-item gal2">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabhack/400/300');height:100%;width:100%;">
+          <span class="gal-label">Hacknovate 6.0</span>
+        </div>
+      </div>
+      <div class="grid-item gal3">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabsquid/400/300');height:100%;width:100%;">
+          <span class="gal-label">SQUID HUNT</span>
+        </div>
+      </div>
+      <div class="grid-item gal4">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabwinter/400/300');height:100%;width:100%;">
+          <span class="gal-label">Tech Winter Break</span>
+        </div>
+      </div>
+      <div class="grid-item gal5">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabteam/400/300');height:100%;width:100%;">
+          <span class="gal-label">Core Team</span>
+        </div>
+      </div>
+      <div class="grid-item gal6">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabws/400/300');height:100%;width:100%;">
+          <span class="gal-label">Workshop</span>
+        </div>
+      </div>
+      <div class="grid-item gal7">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabsg/400/300');height:100%;width:100%;">
+          <span class="gal-label">Study Group</span>
+        </div>
+      </div>
+      <div class="grid-item gal8">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabfest/400/300');height:100%;width:100%;">
+          <span class="gal-label">Community Meet</span>
+        </div>
+      </div>
+      <div class="grid-item gal9">
+        <div class="gal-img"
+          style="background-image:url('https://picsum.photos/seed/gdgabcampus/400/300');height:100%;width:100%;">
+          <span class="gal-label">On Campus</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="visit-btn visit-btn2"
+      style="margin-top:1rem;display:inline-flex;background:#363636;color:#fff;">
+      Visit Our Gallery <span class="btn-main"><span>&#10230;</span></span>
+    </a>
+  </div>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marq">
+    <div class="sep">
+      <div class="marquee">
+        <span class="marquee-item">GDG On Campus ABESIT &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Build &bull; Learn &bull; Connect &bull; Grow &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Ghaziabad &bull; Uttar Pradesh &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">@GDGCABESIT &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Google Developer Groups &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">GDG On Campus ABESIT &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Build &bull; Learn &bull; Connect &bull; Grow &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Ghaziabad &bull; Uttar Pradesh &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">@GDGCABESIT &nbsp;&nbsp;&nbsp;</span>
+        <span class="marquee-item">Google Developer Groups &nbsp;&nbsp;&nbsp;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== TEAM SECTION ========== -->
+  <div class="team-section" id="team">
+
+    <div class="title-card">
+      <div class="text-content">
+        <h2>Our Team</h2>
+        <p>The passionate students behind GDG On Campus ABESIT who make every event possible.</p>
+      </div>
+      <div class="dude"></div>
+    </div>
+
+    <div class="team-cards">
+
+      <div class="team-card tc1">
+        <div class="profile-pic">
+          <img src="assets/media__1771966324358.png" alt="Satyam Yadav" />
+        </div>
+        <div class="ppl-det">
+          <h3>Satyam Yadav</h3>
+          <p>GDSC Lead</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc7">
+        <div class="profile-pic">
+          <img src="assets/media__1771965013532.jpg" alt="Shreesh Pandey" />
+        </div>
+        <div class="ppl-det">
+          <h3>Shreesh Pandey</h3>
+          <p>Developer / Tech</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc2">
+        <div class="profile-pic">
+          <img src="assets/media__1771965623930.png" alt="Aditi Srivastava" />
+        </div>
+        <div class="ppl-det">
+          <h3>Aditi Srivastava</h3>
+          <p>Event Management</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc3">
+        <div class="profile-pic">
+          <img src="assets/media__1771965574260.png" alt="Abhinav" />
+        </div>
+        <div class="ppl-det">
+          <h3>Abhinav</h3>
+          <p>Social Media</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc4">
+        <div class="profile-pic">
+          <img
+            src="https://ui-avatars.com/api/?name=Parth&background=34A853&color=fff&size=400&font-size=0.35&bold=true"
+            alt="Parth" />
+        </div>
+        <div class="ppl-det">
+          <h3>Parth</h3>
+          <p>Graphic Designer</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc5">
+        <div class="profile-pic">
+          <img src="assets/media__1771965725144.png" alt="Aryan" />
+        </div>
+        <div class="ppl-det">
+          <h3>Aryan</h3>
+          <p>Graphic Designer</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-card tc6">
+        <div class="profile-pic">
+          <img src="assets/media__1771965681029.png" alt="Nitin" />
+        </div>
+        <div class="ppl-det">
+          <h3>Nitin</h3>
+          <p>PR &amp; Sponsorship</p>
+          <div class="social-icons">
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ========== SPONSORS SECTION ========== -->
+  <div class="sponsors-section" id="sponsors">
+    <h2 class="section-title" style="text-align:center;">Our <span style="color:#FBBC04;">SPONSORS</span></h2>
+    <p class="section-subtitle" style="text-align:center;margin:0 auto 3rem auto;max-width:600px;">People who have
+      helped us throughout our journey constantly.</p>
+
+    <div class="sponsors-grid">
+      <div class="sponsor-item">
+        <img src="https://interledger.org/img/interledger-logo.png" alt="Interledger Foundation" />
+      </div>
+      <div class="sponsor-item">
+        <img src="https://www.newtonschool.co/images/newton-school-logo.svg" alt="Newton School" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== CONTACT ========== -->
+  <div class="contact-section" id="contact">
+    <h2 class="section-title">Connect With Us</h2>
+    <p class="section-subtitle">Have questions or want to collaborate? Find us across all platforms.</p>
+
+    <div class="contact-grid">
+      <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="contact-card">
+        <div class="cc-icon">🔗</div>
+        <h3>All Our Links</h3>
+        <p>Instagram, LinkedIn, YouTube, WhatsApp — find everything in one place.</p>
+        <span class="cc-btn">Visit Link Hub</span>
+      </a>
+      <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="contact-card">
+        <div class="cc-icon">📸</div>
+        <h3>@GDGCABESIT</h3>
+        <p>Follow us on Instagram for event highlights and announcements.</p>
+        <span class="cc-btn">Follow Us</span>
+      </a>
+      <a href="https://tr.ee/OWbOBEzwh6" target="_blank" class="contact-card">
+        <div class="cc-icon">💬</div>
+        <h3>Join Community</h3>
+        <p>Join our WhatsApp community to stay updated on all upcoming events.</p>
+        <span class="cc-btn">Join Now</span>
+      </a>
+      <a href="https://gdg.community.dev/" target="_blank" class="contact-card">
+        <div class="cc-icon">🌐</div>
+        <h3>GDG Chapter</h3>
+        <p>Visit our official GDG chapter page for RSVP and event registrations.</p>
+        <span class="cc-btn">Chapter Page</span>
+      </a>
+    </div>
+
+    <p style="text-align:center;color:#555;font-size:0.85rem;margin-top:3rem;">
+      📍 ABESIT Group of Institutions, Ghaziabad, Uttar Pradesh, India
+    </p>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Logo & Copyright -->
+      <div class="footer-column">
+        <img src="assets/gdg_logo_icon.png" alt="GDG Logo" style="height:60px; margin-bottom:1.5rem;" />
+        <p class="footer-copy">
+          &copy; <span id="year"></span> GDG On Campus ABESIT.<br>
+          All rights reserved.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul class="footer-links">
+          <li><a href="#home">> About</a></li>
+          <li><a href="https://gdg.community.dev/" target="_blank">> Chapters</a></li>
+          <li><a href="#events">> Upcoming Events</a></li>
+          <li><a href="https://gdg.community.dev/" target="_blank">> Participation Terms</a></li>
+          <li><a href="#">> Privacy Policy</a></li>
+          <li><a href="#">> Terms and Conditions</a></li>
+        </ul>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-links-minimal">
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://tr.ee/OWbOBEzwh6" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "gdg-abesit-website",
+  "version": "1.0.0",
+  "description": "GDG On Campus ABESIT Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
